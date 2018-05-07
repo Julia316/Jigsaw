@@ -1,0 +1,285 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	background:#ffb24e;
+}
+.banner{
+	width:100%;
+	height:504px;
+	max-width:2000px;
+	min-width:1000px;
+	margin:0 auto;
+	text-align:center;	
+	background:url(../img/banner.jpg) 50% 0% no-repeat;	
+}
+.wrap{
+	width:100%;
+	height:1075px;
+	max-width:2000px;
+	min-width:1000px;
+	margin:0 auto;
+	text-align:center;
+	background:url(../img/bg.jpg) 50% 0% no-repeat;	
+}
+.wrapIn{
+	position:relative;
+	width:606px;
+	height:1075px;
+	margin:0 auto;
+	text-align:center;
+}
+.timeBox{
+	width:606px;
+	margin:0 auto;
+	padding:30px 0 51px;
+	text-align:left;
+}
+.time{
+	float:left;
+	width:145px;
+	height:52px;
+	background:#fbeaad;
+	border-radius:26px;	
+	margin:0 9px 0 21px;
+}
+.time img{
+	float:left;
+	width:41px;
+	height:41px;
+	padding:6px 0 0 16px;
+}
+.time .second{
+	float:left;
+	font-style:none;
+	font-size:26px;
+	color:#7d7454;
+	line-height:52px;
+	padding-left:16px;
+}
+.barBox{
+	float:left;
+	width:424px;
+	height:22px;	
+	background:#fbeaad;
+	border-radius:11px;	
+	margin:15px 0 0 0;
+}
+.barIn{
+	position: relative;
+	width:416px;
+	height:16px;	
+	border-radius:8px;	
+	margin:4px 0 0 4px;	
+	overflow: hidden;
+}
+.bar{
+	position: absolute;
+	top:0;
+	left:0;
+	width:416px;
+	height:16px;
+	border-radius:8px;	
+	background:#90c800;	
+}
+.ulBox{
+	width:100%;
+	height:660px;
+	margin:0 auto;
+}
+#ul1{
+	position:relative;
+	margin:0 auto;
+	cursor:url(../img/pointer.png),move;
+}
+#ul1 li{
+	float:left;
+	list-style:none;
+	margin:1px;
+}
+/*遮罩层*/
+.mask{
+	display:none;
+	position:absolute;
+	top:133px;
+	left:0;
+	cursor:url(../img/pointer.png),pointer;
+	background:url(../img/maskBg.png) 50% 0% repeat-y;
+}
+.tcBtn{
+	width:395px;
+	height:208px;
+	padding-top:185px;
+	margin:0 auto;
+}
+.tcBtn img{
+	width:395px;
+	height:208px;
+}
+.tcBtn2{
+	width:395px;
+	height:208px;
+	margin:0 auto;
+}
+.tcBtn2 img{
+	width:395px;
+	height:208px;
+}
+.Tip{
+	width:551px;
+	height:262px;
+	margin:0 auto;
+	padding-top:50px;
+	background:url(../img/TipS.png) 50% 50% no-repeat;
+	background-size:551px 262px;
+}
+.Tip2{
+	width:551px;
+	height:262px;
+	margin:0 auto;
+	padding-top:50px;
+	background:url(../img/TipF.png) 50% 50% no-repeat;
+	background-size:551px 262px;
+}
+
+/*图片选中动效*/
+.focus{
+	-webkit-animation: glow 600ms ease-out infinite alternate;
+	-moz-animation: glow 600ms ease-out infinite alternate;
+	-o-animation: glow 600ms ease-out infinite alternate;
+	-ms-animation: glow 600ms ease-out infinite alternate;
+	animation: glow 600ms ease-out infinite alternate;
+    border:1px solid #fbeaad;
+	box-shadow: 0 0 40px rgba(252,255,0,.9), inset 0 0 20px rgba(252,255,0,.7), 0 0 0 #000;
+}
+@-webkit-keyframes glow{
+    0% {
+		border:1px solid #fbeaad;
+		box-shadow: 0 0 40px rgba(252,255,0,.9), inset 0 0 20px rgba(252,255,0,.7), 0 0 0 #000;		
+    }	
+    100% {
+		border:1px solid #fcff00; 
+		box-shadow: 0 0 12px rgba(251,234,173,.6), inset 0 0 12px rgba(251,234,173,.4), 0 0 0 #000;
+    }
+}
+@-moz-keyframes glow {
+    0% {
+		border:1px solid #fbeaad;
+		box-shadow: 0 0 40px rgba(252,255,0,.9), inset 0 0 20px rgba(252,255,0,.7), 0 0 0 #000;		
+    }	
+    100% {
+		border:1px solid #fcff00; 
+		box-shadow: 0 0 12px rgba(251,234,173,.6), inset 0 0 12px rgba(251,234,173,.4), 0 0 0 #000;
+    }
+}
+
+@-o-keyframes glow {
+    0% {
+		border:1px solid #fbeaad;
+		box-shadow: 0 0 40px rgba(252,255,0,.9), inset 0 0 20px rgba(252,255,0,.7), 0 0 0 #000;		
+    }	
+    100% {
+		border:1px solid #fcff00; 
+		box-shadow: 0 0 12px rgba(251,234,173,.6), inset 0 0 12px rgba(251,234,173,.4), 0 0 0 #000;
+    }
+}
+
+@-ms-keyframes glow {
+    0% {
+		border:1px solid #fbeaad;
+		box-shadow: 0 0 40px rgba(252,255,0,.9), inset 0 0 20px rgba(252,255,0,.7), 0 0 0 #000;		
+    }	
+    100% {
+		border:1px solid #fcff00; 
+		box-shadow: 0 0 12px rgba(251,234,173,.6), inset 0 0 12px rgba(251,234,173,.4), 0 0 0 #000;
+    }
+}
+
+@keyframes glow {
+    0% {
+		border:1px solid #fbeaad;
+		box-shadow: 0 0 40px rgba(252,255,0,.9), inset 0 0 20px rgba(252,255,0,.7), 0 0 0 #000;		
+    }	
+    100% {
+		border:1px solid #fcff00; 
+		box-shadow: 0 0 12px rgba(251,234,173,.6), inset 0 0 12px rgba(251,234,173,.4), 0 0 0 #000;
+    }
+}
+
+/*滚动条*/
+#tipBox{
+	width:322px;
+	height:22px;
+    margin:0 auto 10px;
+}
+.tip{
+	width:101px;
+	float:left;
+	margin:0 3px; 
+	text-align:center;
+	font-size:18px;
+	color:#222;	
+	line-height: 22px;
+}
+.tip img{
+	display: inline-block;
+	padding:0 3px;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	vertical-align:top;
+}
+.tip img:hover{
+	-webkit-transform:rotate(180deg);
+	transition:1s;
+}
+#control{
+	width:322px;
+	height:90px;
+	margin:0 auto;
+	background:url(../img/control.png) 50% 50% no-repeat;
+	background-size:322px 90px;
+}
+.track{
+	position: relative;
+	width:288px;
+	height:49px;
+	margin:0 auto;
+	padding-top:11px;
+	text-align:left;
+}
+.track .leftH{
+	float:left;
+	position: relative;
+	width:134px;
+	height:49px;
+}
+.track .leftH img{
+	display: block;
+	position:absolute;
+	top:0;
+	right:0;
+	width:29px;
+	height:49px;
+	cursor:url(../img/pointer.png),pointer;
+}
+.track .rightH{
+	float:left;
+	position:relative;
+	width:134px;
+	height:49px;
+	margin-left:20px;
+}
+.track .rightH img{
+	display: block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:29px;
+	height:49px;
+	cursor:url(../img/pointer.png),pointer;
+}
